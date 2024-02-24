@@ -3,19 +3,27 @@
 
 ## Ferramentas utilizadas para o projeto:
 - PyCharm with Jupyter Notebook
-- Anaconda
+- Miniconda
 - Python 3.12.1
 - Windows 11
 - Todos os pacotes instalados estão contidos em `requirements.txt`
 
-## Project Overview
-- Diagram:
+## Visão geral do projeto
+- Diagrama:
 ![Diagram](https://github.com/guico3lho/indicium_desafio/blob/main/assets/pipeline_diagram.png?raw=true)
 - `assets` contém o diagrama da pipe line e o melhor modelo treinado
 - `pipeline` contém o fluxo de arquivos que compõe a pipeline, composto por
   - (1) `eda.ipynb`: Análise exploratória, resposta das perguntas do desafio, conclusão e decisões para os modelos preditivos
   - (2) `evaluate_models_train_split.ipynb`: avaliação de três modelos lineares diferentes utilizando validação cruzada no split de treino
   - (3) `apply_model_split.ipynb: aplicação` do melhor modelo no split de teste
+
+## Como instalar e executar
+- Instalar Anaconda ou Miniconda
+- Criar um ambiente de desenvolvimento com Python 3.12.1
+- Instalar os pacotes do `requirements.txt` executando `pip install -r requirements.txt`
+- Importar o dataset no projeto (no meu caso, usei a biblioteca `gdown`, mas qualquer outra forma pode ser utilizada)
+- Caso decida pelo `gdown`, basta executar o notebook normalmente, que irá baixar o dataset de um repositório do drive que deixei público
+- Tudo pronto
 
 ## Conclusão do desafio
 - A análise exploratória trouxe muitos insights interessantes, descritos no notebook `eda.ipynb`. Esses insights foram importantes para encontrar as características que mais influenciam 
