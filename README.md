@@ -15,7 +15,7 @@
 - `pipeline` contém o fluxo de arquivos que compõe a pipeline, composto por
   - (1) `eda.ipynb`: Análise exploratória, resposta das perguntas do desafio, conclusão e decisões para os modelos preditivos
   - (2) `evaluate_models_train_split.ipynb`: avaliação de três modelos lineares diferentes utilizando validação cruzada no split de treino
-  - (3) `apply_model_split.ipynb: aplicação` do melhor modelo no split de teste
+  - (3) `apply_model_split.ipynb: aplicação` aplicação do melhor modelo no split de teste e da amostra descrita no desafio
 
 ## Como instalar e executar
 - Instalar Anaconda ou Miniconda
